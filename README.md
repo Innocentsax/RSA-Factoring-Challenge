@@ -1,6 +1,14 @@
-## RSA Factoring Challenge in python
+# RSA Factoring Challenge in python
+___
+[![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/Innocentsax/standard-readme)
 
 The RSA Factoring Challenge was a challenge set up by RSA Security in 1991 to encourage the development of faster factoring algorithms, which are important for breaking the RSA cryptosystem. The challenge involved factoring a large integer that was the product of two prime numbers, and the prize was $200,000.
+
+<p align="center">
+<img src="https://www.packetmania.net/en/2022/01/22/Python-Textbook-RSA/finding-prime-en.jpg">
+</p>
+
+### ***RSA Factoring Challenge in Python...***
 
 To summarize the RSA Factoring Challenge in Python, one would typically write a program to factor a large integer into its prime factors. The algorithm would involve trying different factorization methods until the two prime factors are identified. One of the most common methods is the trial division method, where potential factors are divided into the original integer until only prime factors remain.
 
@@ -13,4 +21,4 @@ Python has a number of libraries that can be used for factoring large integers, 
 
 ### Author
 
-***INNOCENT UDO***
+© ***INNOCENT UDO***
