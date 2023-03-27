@@ -8,16 +8,25 @@ The RSA Factoring Challenge was a challenge set up by RSA Security in 1991 to en
 <img src="https://www.packetmania.net/en/2022/01/22/Python-Textbook-RSA/finding-prime-en.jpg">
 </p>
 
-### ***RSA Factoring Challenge in Python...***
+**Mission/Objective:**
+We have sniffed an unsecured network and found numbers that are used to encrypt very important documents. It seems that those numbers are not always generated using large enough prime numbers. Your mission should you choose to accept it, is to factorize these numbers as fast as possible before the target fixes this bug on their server - so that we can decode the encrypted documents.
 
-To summarize the RSA Factoring Challenge in Python, one would typically write a program to factor a large integer into its prime factors. The algorithm would involve trying different factorization methods until the two prime factors are identified. One of the most common methods is the trial division method, where potential factors are divided into the original integer until only prime factors remain.
+### Resources
+* [Prime Factorization](https://privacycanada.net/mathematics/prime-factorization/) || [How does HTTPS provide security?](https://stackoverflow.com/questions/3968095/how-does-https-provide-security) || [RSA (cryptosystem)](https://en.wikipedia.org/wiki/RSA_(cryptosystem%29) || [Python File I/O](https://www.programiz.com/python-programming/file-operation) || [Open a File in Python](https://pynative.com/python-file-open/) || [Reading and Writing to text files in Python](https://www.geeksforgeeks.org/reading-writing-text-files-python/)
 
-Another popular method is the Pollard's rho algorithm, which is a randomized algorithm that attempts to find a non-trivial factor of a composite number. The algorithm involves generating a sequence of numbers, and finding the greatest common divisor of pairs of numbers in the sequence until a factor of the composite number is found.
+## General Requirements
+* You can choose the language of your choice, though this project was written in python language
+* All the files was interpreted/compiled on Ubuntu 20.04 LTS using python3 (version 3.8.5)
+* All files ends with a new line
+* The first line of all your files should be exactly **#!/usr/bin/env python3**
+* There is a **README.md** file, at the root of the folder of the project
+* All files are executable
+* All coded used the pycodestyle (version 2.8.*)*
 
-Other more advanced methods that can be used to factor large integers include the quadratic sieve and the general number field sieve.
-
-Python has a number of libraries that can be used for factoring large integers, such as SymPy, gmpy2, and Crypto.Util.number. These libraries can make the process of factoring integers more efficient, and can be used to solve the RSA Factoring Challenge.
-
+## List of files and description:
+| S/N   |       Files          |        Description  |
+|:-----:|:--------------------:|:-------------------|
+|1. | [factors](https://github.com/Innocentsax/RSA-Factoring-Challenge/factors) | To Factorize as many numbers as possible into a product of two smaller numbers.|
 
 ### Author
 
